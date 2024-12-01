@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>frame</title>
+</head>
+<frameset rows="50%,50%">
+<frame src="" name="image">
+<frame src="" name=""description">
+</frameset>
+</html>

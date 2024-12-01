@@ -1,0 +1,19 @@
+<html>
+<body>
+<h1>Add two numbers</h1>
+<p>We can add two numbers</p>
+<input type="number" id="num1">
+<input type="number" id="num2">
+<button onclick="sumof()">Sum</button>
+
+<script type="text/javascript" language="javascript">
+function sumof(){
+var sum;
+var num1=parseFloat(document.getElementById("num1").value);
+var num2=parseFloat(document.getElementById("num2").value);
+sum=num1+num2;
+document.write("Sum of two numbers are",sum)
+}
+</script>
+</body>
+</html>

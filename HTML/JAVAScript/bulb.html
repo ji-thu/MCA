@@ -1,0 +1,30 @@
+
+<html>
+<body>
+
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "https://5.imimg.com/data5/SELLER/Default/2022/7/YJ/YE/SS/154438590/philips-b22-gls-incandescent-bulb.jpg"
+  } else if(sw == 1){
+    pic = "https://5.imimg.com/data5/WL/SG/MY-8835990/10w-gls-light-bulb.jpg"
+  }
+    else{
+    pic ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIu33LgAcSjrXgu4HUKEeEdPeBpfw7E4554w&s"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="https://5.imimg.com/data5/SELLER/Default/2022/7/YJ/YE/SS/154438590/philips-b22-gls-incandescent-bulb.jpg" width="100" height="180">
+
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+<button type="button" onclick="light(2)">Red</button>
+</p>
+
+</body>
+</html>
